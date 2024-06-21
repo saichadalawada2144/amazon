@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="logo1.jpeg">
+    <title>Stellar Buy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Buy</title>
+    <link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#"><img src="logo1.jpeg" class="logopng"></a></div>
+            <b id="user-name">Name</b>
+            <form class="search" action="#">
+                <input type="text" placeholder="Search..." class="sbar">
+                <button type="submit" class="sbutt"><img src="search.png" class="searchpng"></button>
+            </form>
+            <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="about">About</a></li>
+                <li><a href="#" id="contact">Contact</a></li>
+                <li><a href="#" id="orders">Orders</a></li>
+                <li><a href="#" id="cart">Cart</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </div>
+    </nav>
+    
+    <div class="slider">  
+        <div class="slides">
+            <img class="slide" src="img1.jpg" alt="Image #1">
+            <img class="slide" src="img2.jpg" alt="Image #2">
+            <img class="slide" src="img3.jpg" alt="Image #3">
+        </div>
+        <button class="prev" onclick="prevslide()">&#10094</button>
+        <button class="next" onclick="nextslide()">&#10095</button>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
